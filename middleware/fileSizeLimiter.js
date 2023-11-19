@@ -28,6 +28,6 @@ const fileSizeLimiter = (req, res, next) => {
         return res.status(413).json({ status: "error", message})
     }
     next()
-}
+};
 
 module.exports = fileSizeLimiter;
