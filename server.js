@@ -33,4 +33,4 @@ app.post('/upload',
     }
 );
 
-app.listen(PORT, () => console.log(`server running on PORT ${PORT}`))
+app.listen(PORT, () => console.log(`server running on PORT ${PORT}`));
