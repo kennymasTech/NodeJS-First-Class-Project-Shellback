@@ -23,7 +23,7 @@ const fileExtLimitter = (allowedExtArray) => {
 
     next();
 
-    }
+    };
 };
 
 
