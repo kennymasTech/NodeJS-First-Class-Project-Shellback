@@ -8,7 +8,6 @@
 
 
 
-
 const path = require('path');
 
 const fileExtLimitter = (allowedExtArray) => {
